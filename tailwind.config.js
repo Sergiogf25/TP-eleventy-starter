@@ -12,6 +12,10 @@ module.exports = {
 
         },
         extend: {
+            screens: {
+                'portrait': {'raw': '(orientation: portrait)'},
+                // => @media (orientation: portrait) { ... }
+            },
 
             colors: {
                 'jolivert': '#78DF87',
